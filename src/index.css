@@ -1,0 +1,97 @@
+:root {
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  font-family: "Jost-Regular", sans-serif;
+  font-size: 100%;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+  background-color: var(--white-color);
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+}
+
+#root {
+  height: 100vh;
+  min-height: 100vh;
+}
+
+/* SCROLL BAR CUSTOMIZATION STYLES */
+::-webkit-scrollbar {
+  background: #f1f1f1;
+  border-radius: 4px;
+  height: 8px;
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 6px;
+}
+
+/* PASSWORD BULLET STYLING */
+input[type="password"] {
+  font: small-caption;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+/* TEXTFIELD AUTOFILL BACKGROUND */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+  box-shadow: 0 0 0 30px white inset !important;
+  background: none;
+}
+
+/* BUTTON RELATED STYLES  */
+.btn {
+  color: var(--white-color);
+  border-radius: 6;
+  height: 49px;
+  text-transform: capitalize;
+  font-family: "Jost-Regular";
+  font-size: 1rem;
+}
+
+.btn-dark,
+.btn-dark:hover {
+  background-color: var(--black-color);
+  border: 1px solid var(--black-color);
+}
+
+.btn-dark-outline,
+.btn-dark-outline:hover {
+  border: 1px solid var(--secondary-theme-color);
+  background-color: var(--white-color);
+  color: var(--secondary-theme-color);
+}
+
+.btn-light-outline,
+.btn-light-outline:hover {
+  border: 1px solid var(--medium-gray-color);
+  color: var(--dark-gray-color);
+  background-color: var(--white-color);
+}
