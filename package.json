@@ -2,7 +2,7 @@
   "name": "houzey-admin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://michaeljohnson-mj.github.io",
+  "homepage": "https://michaeljohnson-mj.github.io/auto-read-otp-mobile-browser/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
