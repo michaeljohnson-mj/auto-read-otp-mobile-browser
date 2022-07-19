@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/auto-read-otp-mobile-browser/static/css/main.77b65dba.css",
+    "main.js": "/auto-read-otp-mobile-browser/static/js/main.b1215b4f.js",
+    "static/js/787.7129efa7.chunk.js": "/auto-read-otp-mobile-browser/static/js/787.7129efa7.chunk.js",
+    "index.html": "/auto-read-otp-mobile-browser/index.html",
+    "main.77b65dba.css.map": "/auto-read-otp-mobile-browser/static/css/main.77b65dba.css.map",
+    "main.b1215b4f.js.map": "/auto-read-otp-mobile-browser/static/js/main.b1215b4f.js.map",
+    "787.7129efa7.chunk.js.map": "/auto-read-otp-mobile-browser/static/js/787.7129efa7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77b65dba.css",
+    "static/js/main.b1215b4f.js"
+  ]
+}
